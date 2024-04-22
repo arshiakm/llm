@@ -1,6 +1,5 @@
-# README for Text Generation Project Using GPT-Neo
 
-## Project Description
+# Project Description
 
 This project is designed to fine-tune the GPT-Neo model, a powerful autoregressive language model that emulates the GPT-3 architecture, using a custom dataset potentially containing sensitive or adversarial content. The ultimate goal is to explore the model's capabilities and vulnerabilities in generating text based on both regular and adversarially manipulated inputs. This project includes a step to create adversarial images intended to test the robustness of the model against inputs designed to bypass its safety mechanisms.
 

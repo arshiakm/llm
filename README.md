@@ -12,7 +12,7 @@ The application allows users to:
 **What works:**
 - Fine-tuning GPT-Neo on a specified dataset.
 - Generating text based on user-provided prompts and displaying it in an interactive web app.
-- Creating adversarial images to manipulate model outputs (conceptual implementation provided).
+- Creating adversarial images to manipulate model outputs.
 
 **What does not work/Not implemented:**
 - A fully implemented adversarial image manipulation function integrated seamlessly with the text generation process (requires further development).
@@ -55,7 +55,7 @@ The application allows users to:
 ### Using the Application
 
 - **Text Input:** Enter a text prompt to generate text.
-- **Image Upload (Optional):** Upload an image to test adversarial attacks (note: full functionality for adversarial attacks is conceptual and requires additional implementation).
+- **Image Upload:** Upload an image to test adversarial attacks (note: full functionality for adversarial attacks is conceptual and requires additional implementation).
 - **Sliders:** Adjust the `Max Length` for generated text and `Temperature` to control the randomness of the output.
 - **Generate Text:** Click the button to view the model's output based on the input.
 
@@ -67,11 +67,11 @@ The model is fine-tuned on a dataset specified by the user, which should contain
 
 ### Text Generation
 
-Users can input text prompts, and the model generates responses based on these prompts. The responses are influenced by the nature of the model’s training and fine-tuning, showcasing how well the model can generate contextually relevant and coherent text.
+Users can input text prompts and image, and the model generates responses based on these prompts. The responses are influenced by the nature of the model’s training and fine-tuning and images, showcasing how well the model can generate contextually relevant and coherent text.
 
 ### Adversarial Image Testing
 
-The code provides a conceptual framework for creating adversarial images that are supposed to manipulate the model’s output by subtly altering the visual input. However, this part of the project would need further development for full functionality.
+The code provides a  framework for creating adversarial images that are supposed to manipulate the model’s output by subtly altering the visual input.
 
 ## Lessons Learned
 

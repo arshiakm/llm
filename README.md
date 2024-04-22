@@ -69,6 +69,9 @@ The model is fine-tuned on a dataset specified by the user, which should contain
 
 Users can input text prompts and image, and the model generates responses based on these prompts. The responses are influenced by the nature of the model’s training and fine-tuning and images, showcasing how well the model can generate contextually relevant and coherent text.
 
+![image](https://github.com/arshiakm/llm/assets/108753082/4db51bf8-9d50-45b6-8bf3-a212d5e54861)
+
+
 ### Adversarial Image Testing
 
 The code provides a  framework for creating adversarial images that are supposed to manipulate the model’s output by subtly altering the visual input.

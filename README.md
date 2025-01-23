@@ -26,32 +26,6 @@ The application allows users to:
 - An installed version of PyTorch that supports your GPU
 - Gradio installed (for web interface)
 
-### Setup Instructions
-
-1. **Clone the Repository:**
-   ```bash
-   git clone https://github.com/your-repository.git
-   cd your-repository
-   ```
-
-2. **Install Required Libraries:**
-   Ensure `transformers`, `gradio`, `pandas`, and `torch` are installed, or run:
-   ```bash
-   pip install transformers gradio pandas torch
-   ```
-
-3. **Prepare the Dataset:**
-   Ensure your dataset is in a CSV format with the appropriate column clearly labeled, and update the `fine_tune_model` function's `file_path` parameter to the path of your dataset.
-
-4. **Run the Script:**
-   Execute the Python script to start the web app:
-   ```bash
-   python your_script_name.py
-   ```
-
-5. **Interact with the Web Interface:**
-   Open the link provided in the terminal after running the script to access the web interface and start generating text.
-
 ### Using the Application
 
 - **Text Input:** Enter a text prompt to generate text.
